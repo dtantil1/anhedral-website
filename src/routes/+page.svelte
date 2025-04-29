@@ -99,7 +99,7 @@
   // Services
   const services = [
     {
-      title: 'Avionics Development',
+      title: 'Avionics Development s',
       description: 'Custom avionics solutions designed for next-generation aircraft',
       icon: 'M7 15l5 5 5-5m-5-5v10'
     },
