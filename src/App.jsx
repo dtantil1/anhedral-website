@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Globe, MapPin, Phone, Mail, ChevronDown, Clock } from 'lucide-react';
 import pilotsBreakImage from '../src/assets/pilots_break.png';
+import { Analytics } from "@vercel/analytics/react"
 
 const AnhedralWebsite = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -310,6 +311,8 @@ const AnhedralWebsite = () => {
           </div>
         </div>
       </section>
+      
+      <Analytics />
       
       {/* Footer */}
       <footer className="py-8 bg-black/80 backdrop-blur-sm border-t border-gray-800 z-10 relative">
