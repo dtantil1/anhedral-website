@@ -325,8 +325,10 @@ const AnhedralWebsite = () => {
       <style jsx>{`
         .stars {
           background: #000 url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPgo8ZyBmaWxsPSIjZmZmIj4KPGNpcmNsZSBjeD0iNTAxIiBjeT0iNTAxIiByPSIxIi8+CjxjaXJjbGUgY3g9IjcyMCIgY3k9IjMzMCIgcj0iMSIvPgo8Y2lyY2xlIGN4PSIyNTQiIGN5PSI4NzAiIHI9IjEiLz4KPGNpcmNsZSBjeD0iODQwIiBjeT0iNjMwIiByPSIwLjgiLz4KPGNpcmNsZSBjeD0iMTAyIiBjeT0iNTgwIiByPSIwLjgiLz4KPGNpcmNsZSBjeD0iODI1IiBjeT0iOTUiIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSIzNTAiIGN5PSI5MzAiIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSI0MDMiIGN5PSIxMzAiIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSI3NzciIGN5PSI0MzMiIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSIxNzciIGN5PSI2MzMiIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSI5MzMiIGN5PSI3MzciIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSIyMzMiIGN5PSIyMzciIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSI1NjciIGN5PSI4ODciIHI9IjAuNyIvPgo8Y2lyY2xlIGN4PSI4OTgiIGN5PSIxOTgiIHI9IjAuNSIvPgo8Y2lyY2xlIGN4PSI0MjMiIGN5PSIyODciIHI9IjAuNSIvPgo8Y2lyY2xlIGN4PSIzOTkiIGN5PSI3MTMiIHI9IjAuNSIvPgo8Y2lyY2xlIGN4PSI2MzkiIGN5PSIxMSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9IjIzOSIgY3k9IjY3MSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9IjExNSIgY3k9IjE3OSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9IjgyOSIgY3k9IjcyMSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9IjkyMSIgY3k9IjQ3MSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9Ijc1NSIgY3k9IjgyNSIgcj0iMC41Ii8+CjxjaXJjbGUgY3g9IjU1IiBjeT0iOTI1IiByPSIwLjUiLz4KPGNpcmNsZSBjeD0iNTU1IiBjeT0iNTU1IiByPSIwLjUiLz4KPGNpcmNsZSBjeD0iNjUiIGN5PSIzNzAiIHI9IjAuNCIvPgo8Y2lyY2xlIGN4PSIzMDUiIGN5PSI1MCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjUyNSIgY3k9IjIzMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjY1NSIgY3k9IjE3NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjQ4MCIgY3k9IjM5NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjU4NSIgY3k9IjY5NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9Ijk0NSIgY3k9IjU5NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjMzNSIgY3k9IjM0NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjcyNSIgY3k9IjUyMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjY0MCIgY3k9IjMyMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjY0MCIgY3k9IjU3NSIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjgwIiBjeT0iODUiIHI9IjAuNCIvPgo8Y2lyY2xlIGN4PSIxMzUiIGN5PSI0NjAiIHI9IjAuNCIvPgo8Y2lyY2xlIGN4PSIzMDAiIGN5PSI3ODUiIHI9IjAuNCIvPgo8Y2lyY2xlIGN4PSI3OTAiIGN5PSIyMzAiIHI9IjAuNCIvPgo8Y2lyY2xlIGN4PSIxMCIgY3k9IjcyMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjUxMCIgY3k9IjgyMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjY5MCIgY3k9IjQ3MCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjQ5MCIgY3k9IjYyMCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjI4MCIgY3k9IjQ5MCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjE5MCIgY3k9IjM4MCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9Ijk5MCIgY3k9IjM4MCIgcj0iMC40Ii8+CjxjaXJjbGUgY3g9IjQ1IiBjeT0iMjM1IiByPSIwLjMiLz4KPGNpcmNsZSBjeD0iMTQ1IiBjeT0iMjg1IiByPSIwLjMiLz4KPGNpcmNsZSBjeD0iMjkwIiBjeT0iMTM1IiByPSIwLjMiLz4KPC9nPgo8L3N2Zz4=') repeat top center;
-          background-size: 1000px 1000px;
-          animation: stars-move 100s linear infinite;
+          /* Reduced background size to increase star density */
+          background-size: 700px 700px;
+          /* Faster animation (80s instead of 100s) */
+          animation: stars-move 80s linear infinite;
         }
         
         @keyframes stars-move {
@@ -334,7 +336,7 @@ const AnhedralWebsite = () => {
             background-position: 0 0;
           }
           100% {
-            background-position: 500px 500px;
+            background-position: 700px 700px;
           }
         }
       `}</style>
